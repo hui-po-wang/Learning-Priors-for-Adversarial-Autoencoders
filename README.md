@@ -70,4 +70,19 @@ Experimental results for learning priors for adversarial autoencoders
 ### MNIST - Supervised Settings
 | Proposed - Encoder | Proposed - Learned Prior | Baseline - Fixed Prior |
 | ------------------ | ------------------------ | ---------------------- |
-| ![](./figure/latent space/mnist_ours_supervised/mnist_ours_supervised_enc.png) | ![](./figure/latent space/mnist_ours_supervised/mnist_ours_supervised_gen.png) | ![](./figure/latent space/mnist_maae_supervised/mnist_maae_supervised_enc.png) |
+| ![](./figure/latent_space/mnist_ours_supervised/mnist_ours_supervised_enc.png) | ![](./figure/latent_space/mnist_ours_supervised/mnist_ours_supervised_gen.png) | ![](./figure/latent_space/mnist_maae_supervised/mnist_maae_supervised_enc.png) |
+
+### CIFAR-10 - Supervised Settings
+| Proposed - Encoder | Proposed - Learned Prior | Baseline - Fixed Prior |
+| ------------------ | ------------------------ | ---------------------- |
+| ![](./figure/latent_space/cifar10_ours_supervised/cifar10_ours_supervised_enc.png) | ![](./figure/latent_space/cifar10_ours_supervised/cifar10_ours_supervised_gen.png) | ![](./figure/latent_space/cifar10_maae_supervised/cifar10_maae_supervised_enc.png) |
+
+### MNIST - Unsupervised Settings
+| Proposed - Encoder | Proposed - Learned Prior | Baseline - Fixed Prior |
+| ------------------ | ------------------------ | ---------------------- |
+| ![](./figure/latent_space/mnist_ours_unsupervised/mnist_ours_unsupervised_enc.png) | ![](./figure/latent_space/mnist_ours_unsupervised/mnist_ours_unsupervised_gen.png) | ![](./figure/latent_space/mnist_maae_unsupervised/mnist_maae_unsupervised_enc.png) |
+
+### CIFAR-10 - Unsupervised Settings
+| Proposed - Encoder | Proposed - Learned Prior | Baseline - Fixed Prior |
+| ------------------ | ------------------------ | ---------------------- |
+| ![](./figure/latent_space/cifar10_ours_unsupervised/cifar10_ours_unsupervised_enc.png) | ![](./figure/latent_space/cifar10_ours_unsupervised/cifar10_ours_unsupervised_gen.png) | ![](./figure/latent_space/cifar10_maae_unsuperivsed/cifar10_maae_unsupervised_enc.png) |
