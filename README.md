@@ -8,6 +8,7 @@ Experimental results for learning priors for adversarial autoencoders
 - [Image Generation](#image-generation)
 - [Learning Disentangled Representations (Supervised)](#learning-disentangled-representations-supervised)
 - [Learning Disentangled Representations (Unsupervised)](#learning-disentangled-representations-unsupervised)
+- [Latent Space Visualization](#latent-space-visualization)
 
 ## Quantitative Analysis
 ### Inception Scores Evaluation on CIFAR10
@@ -63,3 +64,10 @@ Experimental results for learning priors for adversarial autoencoders
 | Proposed | Baseline |
 | ------------- | ------------- |
 |![cifar10_ours_unsupervised](./figure/cifar10/ours_unsupervised.png)| ![cifar10_maae_unsupervised](./figure/cifar10/maae_unsupervised.png) |
+
+## Latent Space Visualization
+
+### MNIST - Supervised Settings
+| Proposed - Encoder | Proposed - Learned Prior | Baseline - Fixed Prior |
+| ------------------ | ------------------------ | ---------------------- |
+| ![](./figure/latent space/mnist_ours_supervised/mnist_ours_supervised_enc.png) | ![](./figure/latent space/mnist_ours_supervised/mnist_ours_supervised_gen.png) | ![](./figure/latent space/mnist_maae_supervised/mnist_maae_supervised_enc.png) |
